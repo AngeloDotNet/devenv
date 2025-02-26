@@ -1,4 +1,4 @@
-# 🚀 Automated Development Environment Setup with Winget
+# 🚀 Automated Dev Environment Setup with Winget
 
 [![License](https://img.shields.io/github/license/kasuken/devenv)](LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/kasuken/devenv)](https://github.com/kasuken/devenv/graphs/contributors)
