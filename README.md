@@ -14,8 +14,6 @@ If you find this project helpful, please give it a ⭐️!
 - [Installation](#installation)
 - [Usage](#usage)
 - [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
