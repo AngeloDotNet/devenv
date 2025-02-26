@@ -1,0 +1,3 @@
+if (Test-Path 'winget-config.yaml') { Remove-Item -Path 'winget-config.yaml' -Force }; Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/kasuken/devenv/refs/heads/main/winget-config.yaml' -OutFile 'winget-config.yaml' -Headers @{"Cache-Control"="no-cache"};
+winget configure -f winget-config.yaml
+if (Test-Path 'post-install.ps1') { Remove-Item -Path 'post-install.ps1' -Force }; Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/kasuken/devenv/refs/heads/main/post-install.ps1' -OutFile 'post-install.ps1' -Headers @{"Cache-Control"="no-cache"}; .\post-install.ps1
