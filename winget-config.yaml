@@ -36,7 +36,7 @@ properties:
         source: winget
 
     - resource: Microsoft.WinGet.DSC/WinGetPackage
-      id: vscodePackage
+      id: vscodeInsidersPackage
       directives:
         description: Install Visual Studio Code Insiders
         allowPrerelease: false
@@ -103,7 +103,7 @@ properties:
         source: winget
 
     - resource: Microsoft.WinGet.DSC/WinGetPackage
-      id: obsidianPackage
+      id: notionPackage
       directives:
         description: Install Notion
         allowPrerelease: false
@@ -184,6 +184,15 @@ properties:
         source: winget
 
     - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: powerToysPackage
+      directives:
+        description: Install PowerToys
+        allowPrerelease: false
+      settings:
+        id: Microsoft.PowerToys
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: sQLiteStudioPackage
       directives:
         description: Install SQLiteStudio
@@ -229,7 +238,7 @@ properties:
         source: winget
 
     - resource: Microsoft.WinGet.DSC/WinGetPackage
-      id: firefoxPackage
+      id: firefoxDeveloperPackage
       directives:
         description: Install Firefox Developer
         allowPrerelease: false
