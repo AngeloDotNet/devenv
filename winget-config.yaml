@@ -6,7 +6,7 @@ properties:
         description: Verify min OS version requirement
         allowPrerelease: false
       settings:
-        MinVersion: '10.0.22631'
+        MinVersion: '10.0.22621'
         
   resources:
   
