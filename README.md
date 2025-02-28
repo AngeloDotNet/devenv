@@ -56,5 +56,5 @@ After installation, your development environment will be equipped with all the n
 ## Customization
 
 To customize the setup:
-	1.	Modify winget-config.yaml: Add or remove packages as needed. Refer to the Winget Package Search to find package identifiers.
-	2.	Post-Installation Script: Edit post-install.ps1 to include any additional configuration or setup commands.
+- Modify winget-config.yaml: Add or remove packages as needed. Refer to the Winget Package Search to find package identifiers. (https://winstall.app/)
+- Post-Installation Script: Edit post-install.ps1 to include any additional configuration or setup commands.
