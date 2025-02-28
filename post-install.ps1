@@ -19,7 +19,7 @@ Add-Content -Path $PROFILE -Value "Set-PSReadLineOption -PredictionViewStyle Lis
 # Import Visual Studio Workloads
 ################################################################################################################################################
 cd "C:\Program Files (x86)\Microsoft Visual Studio\Installer\"
-.\setup.exe modify --installPath "C:\Program Files\Microsoft Visual Studio\2022\Professional" --config "C:\devenv-main\workloads.vsconfig"
+.\setup.exe modify --installPath "C:\Program Files\Microsoft Visual Studio\2022\Professional" --config "C:\devenv\workloads.vsconfig"
 
 ################################################################################################################################################
 
