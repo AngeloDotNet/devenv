@@ -18,9 +18,13 @@ Add-Content -Path $PROFILE -Value "Set-PSReadLineOption -PredictionViewStyle Lis
 
 # Import Visual Studio Workloads
 ################################################################################################################################################
+Write-Host "Download vs_professional.exe to $outFilePath."
+$downloadUrl = "https://aka.ms/vs/17/release/vs_professional.exe"
+$outFilePath = ".\vs_professional.exe"
+Invoke-WebRequest -Uri $downloadUrl -OutFile $outFilePath -UseBasicParsing
 
-cd "C:\Program Files (x86)\Microsoft Visual Studio\Installer\"
-.\setup.exe --installPath "C:\Program Files\Microsoft Visual Studio\2022\Professional" --config ".\workloads.vsconfig" --passive --allowUnsignedExtensions
+Write-Host "Import Visual Studio 2022 Configuration"
+.\vs_professional.exe --config ".\workloads.vsconfig" --passive --norestart
 
 ################################################################################################################################################
 
