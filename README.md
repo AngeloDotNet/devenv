@@ -14,6 +14,7 @@ If you find this project helpful, please give it a ⭐️!
 - [Installation](#installation)
 - [Usage](#usage)
 - [Customization](#customization)
+- [Included Software](#included-software)
 
 ## Introduction
 
@@ -58,3 +59,48 @@ After installation, your development environment will be equipped with all the n
 To customize the setup:
 - Modify winget-config.yaml: Add or remove packages as needed. Refer to the Winget Package Search to find package identifiers. (https://winstall.app/)
 - Post-Installation Script: Edit post-install.ps1 to include any additional configuration or setup commands.
+
+## Included Software
+
+The following software is automatically installed:
+
+**Development Tools**:
+- Visual Studio 2022 Professional
+- Visual Studio Code
+- Visual Studio Code Insiders
+- .NET Core 9 SDK
+- Git
+- GitHub Desktop
+- JetBrains Rider
+- SQL Server Management Studio (SSMS)
+- SQLiteStudio
+- NuGet
+- Microsoft DevTunnels
+- Microsoft DevProxy
+
+**Development Utilities**:
+- Docker Desktop
+- NVM for Windows
+- RedisInsight
+- Oh My Posh
+- PowerToys
+- TreeSize
+- Sysinternals
+- Windows Terminal
+- Microsoft PowerShell
+- 7-Zip
+
+**Browsers**:
+- Firefox Developer Edition
+- Firefox
+- Microsoft Edge Dev
+
+**Productivity & Miscellaneous**:
+- Notion
+- ShareX
+- GIMP
+- Discord
+- Slack
+- NordPass
+- LM Studio
+- Spotify
