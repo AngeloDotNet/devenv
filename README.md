@@ -82,6 +82,7 @@ The following software is automatically installed:
 - Docker Desktop
 - NVM for Windows
 - RedisInsight
+- Postman
 - Oh My Posh
 - PowerToys
 - TreeSize
