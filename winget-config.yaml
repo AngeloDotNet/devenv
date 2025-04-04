@@ -37,6 +37,15 @@ properties:
         source: winget
 
     - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: postmanPackage
+      directives:
+        description: Install Postman
+        allowPrerelease: false
+      settings:
+        id: Postman.Postman
+        source: winget
+
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: dotnetCore9
       directives:
         description: Install .NET Core 9 SDK
